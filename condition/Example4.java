@@ -5,10 +5,12 @@ public class Example4 {
 	
 	  int i = 10;
 	  int j;
+	  int k;
+	  int a;
 	  
 	  if (i == 10) {
-		  j = 20;
+		//  j = 20
 	  }
-	  System.out.println(j);
+	 // System.out.println(j);
 }
 }
