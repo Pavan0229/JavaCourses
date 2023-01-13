@@ -1,16 +1,21 @@
 package com.condition;
 
 public class Example4 {
-  public static void main(String[] args) {
 	
-	  int i = 10;
-	  int j;
-	  int k;
-	  int a;
-	  
-	  if (i == 10) {
-		//  j = 20
-	  }
-	 // System.out.println(j);
-}
+	int i ;   // global i = 0  
+	
+	void m1() {
+		int j ;   // local Variable
+		
+	//	System.out.println(j); // j = no value
+		
+	}
+	public static void main(String[] args) {
+
+		
+		Example4 p1 = new Example4();
+		System.out.println(p1.i);
+		//System.out.println(p1.j);
+	}
+
 }
